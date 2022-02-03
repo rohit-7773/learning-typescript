@@ -1,2 +1,2 @@
 # learning-typescript
-#### TypeScript is kind of tool which runs before running the javascript file and ensures that the types of program is correct.
+#### TypeScript is a kind of tool which runs before running the javascript file and ensures that the types of the program are correct.
