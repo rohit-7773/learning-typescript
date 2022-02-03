@@ -1,0 +1,13 @@
+"use strict";
+var num = 1;
+var str = "rohit";
+var bool = true;
+var anyVar = "rohit";
+var unionTypes = num;
+var num1 = 1;
+var str1 = "rohit";
+var bool1 = false;
+var arr = [1, 2, 3];
+var arr1 = [1, 2, 3];
+var tuple = [1, "rohit"];
+var tupleArr = [[1, "rohit"], [2, "rohit gupta"]];
