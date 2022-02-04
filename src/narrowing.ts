@@ -46,3 +46,27 @@ function printAll1(strs: string | string[] | null) {
     }
 }
 
+
+// custom type-guard
+type Fish = {swim: () => void};
+type Bird = {fly: () => void};
+
+function isFish(pet: Fish | Bird): pet is Fish {
+    return (pet as Fish).swim != undefined;
+}
+
+function printPetType(pet: Fish | Bird) {
+    if (isFish(pet)) {
+        console.log(`${pet} is fish`);
+    } else {
+        console.log(`${pet} is bird`);
+    }
+}
+
+var fish: Fish = {swim : () => {console.log("swimming")}};
+printPetType(fish)
+
+
+
+
+
