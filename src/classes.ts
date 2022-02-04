@@ -1,13 +1,24 @@
-class Point {
-    x: number;
-    y: number;
+class GoodGreeter {
+    message: string;  // if constructor will not be defined then will give error that message has no initializer
 
-    constructor(x: number, y: number) {
-        this.x = x;
-        this.y = y;
+    constructor (message: string) {
+        this.message = message;
     }
 }
 
-var point = new Point(1, 1);
-point.x = 2
-point.y = 2;
+class OkGreeter {
+    message!: string;  // definite assignment assertion operator - means will definite assign value later
+}
+
+
+
+class Greeter {
+    readonly message: string;  // can only be initialised in constructor or while declaring
+
+    constructor (message: string) {
+        this.message = message;
+    }
+}
+
+
+
