@@ -29,3 +29,15 @@ function addTwoNums(num1: number, num2: number) : number {
 }
 
 console.log(addTwoNums(5, 10));
+
+
+// type assertion
+var a: any = 4;
+var b = a;  // here the type of b will be any
+var c = a as number;  // here the type of c will be number 
+
+
+// literal types
+var rohit: "rohit" = "rohit";  // can contain only string "rohit";
+var direction: "north" | "east" | "west" | "south" = "west";
+var bool: true | false = false;
