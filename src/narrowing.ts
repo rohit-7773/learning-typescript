@@ -1,5 +1,6 @@
 // the process of refining types to more specific types than declared is called narrowing.
-
+// typescript sees this code typeOf <variable> ==="<Type>" as a special form called type card
+ 
 /**
  * @function
  * function padLeft(padding: number | string, input: string) {
