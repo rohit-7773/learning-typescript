@@ -22,3 +22,10 @@ var arr1 = [1, 2, 3]
 // tuples
 var tuple: [number, string] = [1, "rohit"];
 var tupleArr: [number, string][] = [[1, "rohit"], [2, "rohit gupta"]]
+
+// functions
+function addTwoNums(num1: number, num2: number) : number {
+    return num1 + num2;
+}
+
+console.log(addTwoNums(5, 10));
